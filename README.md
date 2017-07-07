@@ -1,11 +1,11 @@
 # SUDOKU-using-Backtracking
 
-#Introduction:
+## Introduction
 
 The long and interesting history of the Sudoku is quite a puzzle in itself. The name “Sudoku” comes from Japan and consists of the Japanese characters Su (meaning 'number') and Doku (meaning 'single') but the was not invented in Japan. Sudoku originated in Switzerland and then travelled to Japan by way of America. Sudoku has its deep roots in ancient number puzzles. For many centuries people have been interested in creating and solving them. Puzzles continue to stimulate new development in mathematics, as you can see in the film “A Beautiful Mind”.
 
 
-#Rules of Sudoku:
+## Rules of Sudoku
 
 Solving a sudoku puzzle can be rather tricky, but the rules of the game are quite simple. A sudoku puzzle is a grid of nine by nine squares or cells, that has been subdivided into nine subgrids or "regions" of three by three cells.
 
@@ -14,7 +14,7 @@ The objective of sudoku is to enter a digit from 1 through 9 in each cell, in su
 •	Each vertical column (shown in yellow) contains each digit exactly once
 •	Each sub grid or region (shown in green) contains each digit exactly once
 
-#Algorithm Used:
+## Algorithm Used
 
 •	Backtracking:
 
@@ -49,9 +49,9 @@ Initialize 2D array with 81 empty grids (nx = 9, ny = 9)
    }
  }
 
-#Programming Language Used: Python
+## Programming Language Used: Python
 
-#File Names: 
+## File Names
 1.	sudoku_create.py
 2.	sudoku_solver.py
 3.	sudoku_AI.py
@@ -66,6 +66,6 @@ python sudoku_AI.py
 
 2.	If the problem can be solved relatively quickly, then so can every problem that satis-fies property (1).
 
-#Fun Fact:
+## Fun Fact
 
 •	First World Sudoku championship was held in Italy in 2006. After that, in 2007 in Prague, Czech Republic and in 2008 it was held in Goa, India!
