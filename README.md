@@ -10,9 +10,9 @@ The long and interesting history of the Sudoku is quite a puzzle in itself. The 
 Solving a sudoku puzzle can be rather tricky, but the rules of the game are quite simple. A sudoku puzzle is a grid of nine by nine squares or cells, that has been subdivided into nine subgrids or "regions" of three by three cells.
 
 The objective of sudoku is to enter a digit from 1 through 9 in each cell, in such a way that:
-•	Each horizontal row (shown in pink) contains each digit exactly once
-•	Each vertical column (shown in yellow) contains each digit exactly once
-•	Each sub grid or region (shown in green) contains each digit exactly once
+•	Each horizontal row contains each digit exactly once
+•	Each vertical column contains each digit exactly once
+•	Each sub grid or region contains each digit exactly once
 
 ## Algorithm Used
 
@@ -35,7 +35,7 @@ Backtracking algorithms are adapted to solve the Sudoku that iterates through al
 2.	sudoku_solver.py
 3.	sudoku_AI.py
 
-*To run the program, change the directory to which all the files are present in and type this command: 
+To run the program, change the directory to which all the files are present in and type this command: 
 	
 	python sudoku_AI.py
 
@@ -44,7 +44,7 @@ Backtracking algorithms are adapted to solve the Sudoku that iterates through al
 
 1.	Any solution to the problem can be checked relatively quickly, i.e. in polynomial time.
 
-2.	If the problem can be solved relatively quickly, then so can every problem that satis-fies property (1).
+2.	If the problem can be solved relatively quickly, then so can every problem that satisfies property (1).
 
 ## Fun Fact
 
